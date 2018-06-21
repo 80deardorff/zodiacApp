@@ -62,12 +62,12 @@ let zodiacSign = [
 ];
 
 // VARIABLE THAT CONTAINS AN ARRAY FOR THE MONTHS
-let dropwDownMonth = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+// let dropwDownMonth = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 // FOR LOOP FOR SETTING MONTH DROPDOWN
-for (var i = 0; i < dropwDownMonth.length; i++) {
-  dropwDownMonth[i] = document.getElementById('drop-down-month');
-}
+// for (var i = 0; i < dropwDownMonth.length; i++) {
+//   dropwDownMonth[i] = document.getElementById('drop-down-month');
+// }
 
 // IF STATEMENT FOR SETTING DAYS IN MONTH
 if (dropwDownMonth.value == dropwDownMonth[0 || 2 || 4 || 6 || 7 || 9 || 11]) {
