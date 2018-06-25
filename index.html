@@ -14,13 +14,13 @@
 		<!-- MAIN CSS LINK -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
+	<body class="bg-dark">
 		<!-- NAVIGATION BAR -->
 		<section class="navbar bg-dark">
 			<h1 class="navbar-brand my-auto text-white">Zodiac Sign</h1>
 			<div class="d-inline-block">
 				<!-- SELECT MENU FOR MONTH -->
-				<select class="custom-select">
+				<select id="month-select" class="custom-select">
 				  <option selected>Month</option>
 				  <option value="1">January</option>
 				  <option value="2">February</option>
@@ -36,7 +36,7 @@
 					<option value="12">December</option>
 				</select>
 				<!-- SELECT MENU FOR DAY -->
-				<select class="custom-select">
+				<select id="day-select" class="custom-select">
 				  <option selected>Day</option>
 				  <option value="1">1</option>
 				  <option value="2">2</option>
@@ -76,13 +76,13 @@
 		</section>
 
 		<!-- MAIN SECTION -->
-		<section class="main container-fluid">
+		<section class="main container-fluid py-5">
 			<div class="row">
 				<div class="col-12 text-center py-5">
-					<img id="image">
-					<h3 id="sign"></h3>
+					<img id="image" src="img/aries.jpg">
 				</div>
 				<div class="col-12 text-center py-5">
+					<h1 id="sign" class="text-white py-3">Aries</h1>
 					<p id="horoscope"></p>
 				</div>
 			</div>

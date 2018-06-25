@@ -1,108 +1,85 @@
 // VARIABLE THAT CONTAINS AN ARRAY OF OBJECTS FOR EVERY ZODIAC SIGN AND ITS PROPERTY VALUE PAIRS
 let zodiacSign = [
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Aquarius',
+    image: 'img/aquarius.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Pisces',
+    image: 'img/pisces.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Aries',
+    image: 'img/aries.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Taurus',
+    image: 'img/taurus.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Gemini',
+    image: 'img/gemini.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Cancer',
+    image: 'img/cancer.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Leo',
+    image: 'img/leo.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Virgo',
+    image: 'img/virgo.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Libra',
+    image: 'img/libra.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Scorpio',
+    image: 'img/scorpio.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Sagittarius',
+    image: 'img/sagittarius.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
 
-  { sign: '',
-    image: 'img/.jpeg',
-    horoscope: ''
+  { sign: 'Capricorn',
+    image: 'img/capricorn.jpg',
+    horoscope: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   }
 ];
 
-// VARIABLE THAT CONTAINS AN ARRAY FOR THE MONTHS
-// let dropwDownMonth = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-
-// FOR LOOP FOR SETTING MONTH DROPDOWN
-// for (var i = 0; i < dropwDownMonth.length; i++) {
-//   dropwDownMonth[i] = document.getElementById('drop-down-month');
-// }
-
-// IF STATEMENT FOR SETTING DAYS IN MONTH
-if (dropwDownMonth.value == dropwDownMonth[0 || 2 || 4 || 6 || 7 || 9 || 11]) {
-
-} else if (dropwDownMonth.value == dropwDownMonth[3 || 5 || 8 || 10]) {
-
-} else if (dropwDownMonth.value == dropwDownMonth[1]) {
-
-};
-
 // VARIABLES THAT CAN MANIPULATE HTML IMAGE AND TEXT
-let sign = document.getElementById('id');
+let sign = document.getElementById('sign');
 let image = document.getElementById('image');
 let horoscope = document.getElementById('horoscope');
-let dropwDownDay = document.getElementById('drop-down-day');
 
 // VARIABLES FOR MONTH AND DATE
-let month = document.getElementById('id');
-
-
-// FOR LOOPS FOR SETTING CONDITION OF DROPDOWN MENUS WITH CORRECT DAYS and MONTHS ALOTTED TO EACH SPECIFIC MONTH THAT IS SELECTED
-
-for (var i = 0; i < array.length; i++) {
-  array[i]
-}
+let month = document.getElementById('month-select');
+let day = document.getElementById('day-select')
 
 // FUNCTION ON A CLICK OF A BUTTON THAT RUNS A FOR LOOP COMPARING THE DAY AND MONTH SELECTED TO CATEGORIES SET FOR EACH ZODIAC SIGN; CONDITION STATEMENTS NEEDED
 
 function getSign() {
-  for (var i = 0; i < .length; i++) {
-    if (dropwDownMonth.value == && dropwDownDay.value == ) {
-
+  for (var i = 0; i < zodiacSign.length; i++) {
+    if (true) {
+      sign.value = zodiacSign[i].sign;
+      image.value = zodiacSign[i].image;
+      horoscope.value = zodiacSign[i].horoscope;
     }
   }
-
 }
 
 
