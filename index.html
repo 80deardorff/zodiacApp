@@ -71,25 +71,25 @@
 				  <option value="31">31</option>
 				</select>
 				<!-- GO BUTTON -->
-				<button type="button" name="button" onclick="getSign()" class="btn btn-success">GO</button>
+				<button onclick="getSign()" class="btn btn-success">GO</button>
 			</div>
 		</section>
 
 		<!-- MAIN SECTION -->
-		<section class="main container-fluid py-5">
+		<section class="main container">
+			<!-- <div class="background col-12">
+				<img src="img/northern-lights.jpg" alt="Northern Lights" class="image-fluid">
+			</div> -->
 			<div class="row">
 				<div class="col-12 text-center py-5">
-					<img id="image" src="img/aries.jpg">
+					<img id="image" src="">
 				</div>
-				<div class="col-12 text-center py-5">
-					<h1 id="sign" class="text-white py-3">Aries</h1>
-					<p id="horoscope"></p>
+				<div class="col-12 text-center">
+					<h1 id="sign" class="text-white py-3">INPUT YOUR BIRTHDATE<br>ABOVE AND THEN PRESS<br><button onclick="getSign()" class="btn btn-success">GO</button></h1>
+					<p class="text-white" id="horoscope"></p>
 				</div>
 			</div>
 		</section>
-
-
-
 
 		<!-- JQUERY SCRIPT -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

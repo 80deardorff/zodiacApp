@@ -1,20 +1,24 @@
-body {
-  background-image: url("../img/northern-lights.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
+/* DROPDOWNS */
 select.custom-select {
   width: 200px;
   margin: 10px;
 }
 
-div.row div img {
-  border-radius: 50%;
+/* BACKGROUND IMAGE */
+div.background img {
+  height: 400px;
+  position: absolute;
 }
 
- @media (max-width: 920px) {
-   body {
-     background-size: 920px;
+/* ZODIAC IMAGE */
+#image {
+  border-radius: 50%;
+  width: 200px;
+}
+
+/* MEDIA QUERIES */
+ /* @media (max-width: 811px) {
+   div.background img {
+     width: 811px;
    }
- }
+ } */
