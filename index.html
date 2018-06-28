@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<!-- ANIMATE LINK -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+		<!-- CSS RESET NORMALIZE -->
+		<link rel="stylesheet" href="css/normalize.css">
 		<!-- MAIN CSS LINK -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -76,17 +78,16 @@
 		</section>
 
 		<!-- MAIN SECTION -->
-		<section class="main container">
-			<!-- <div class="background col-12">
-				<img src="img/northern-lights.jpg" alt="Northern Lights" class="image-fluid">
-			</div> -->
-			<div class="row">
-				<div class="col-12 text-center py-5">
+		<img src="img/northern-lights.jpg" alt="Northern Lights" class="image-fluid">
+		<section class="main container-fluid">
+			<div class="row two">
+				<div class="col-10 offset-1 text-center py-5 px-0">
 					<img id="image" src="">
 				</div>
-				<div class="col-12 text-center">
-					<h1 id="sign" class="text-white py-3">INPUT YOUR BIRTHDATE<br>ABOVE AND THEN PRESS<br><button onclick="getSign()" class="btn btn-success">GO</button></h1>
-					<p class="text-white" id="horoscope"></p>
+				<div class="col-10 offset-1 text-center">
+					<h1 id="opening" class="text-white py-3 px-0">INPUT YOUR BIRTHDATE<br>ABOVE AND THEN PRESS<br><button onclick="getSign()" class="btn btn-success">GO</button></h1>
+					<h1 id="sign" class="text-white py-3 px-0"></h1>
+					<p class="text-white mx-auto" id="horoscope"></p>
 				</div>
 			</div>
 		</section>

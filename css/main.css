@@ -5,9 +5,12 @@ select.custom-select {
 }
 
 /* BACKGROUND IMAGE */
-div.background img {
-  height: 400px;
+img.image-fluid {
+  width: 100%;
   position: absolute;
+  min-height: 600px;
+  object-fit: cover;
+  opacity: 0.6;
 }
 
 /* ZODIAC IMAGE */
@@ -16,9 +19,12 @@ div.background img {
   width: 200px;
 }
 
-/* MEDIA QUERIES */
- /* @media (max-width: 811px) {
-   div.background img {
-     width: 811px;
-   }
- } */
+/* HOROSCOPE PARAGRAPH */
+#horoscope {
+  max-width: 400px;
+}
+
+/* ANIMATIONS */
+.animated {
+  animation-duration: 5s;
+}
