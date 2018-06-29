@@ -91,9 +91,12 @@ function getSign() {
     if (((month.value == zodiacSign[i].dateMonth[0]) && (day.value >= zodiacSign[i].dateDay[0])) || ((month.value == zodiacSign[i].dateMonth[1]) && (day.value <= zodiacSign[i].dateDay[1]))) {
       console.log('success');
       sign.textContent = zodiacSign[i].sign;
-      opening.classList.add ('d-none');
+      opening.setAttribute('class', 'd-none');
       image.src = zodiacSign[i].image;
       horoscope.textContent = zodiacSign[i].horoscope;
+      image.setAttribute('class', 'animated fadeIn');
+      sign.setAttribute('class', 'animated fadeIn text-white py-3 px-0');
+      horoscope.setAttribute('class', 'animated fadeIn text-white mx-auto');
       return;
     }
   }
